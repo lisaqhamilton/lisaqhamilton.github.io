@@ -21,6 +21,13 @@
   "contributors": [
     "David Miller (http://davidmiller.io/)"
   ],
+    "engines": {
+    "node": ">=0.10.28",
+    "npm": ">=1.4.28"
+  },
+  "scripts": {
+    "start": "grunt"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual.git"
