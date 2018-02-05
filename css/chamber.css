@@ -22,24 +22,37 @@ h1 {
 }
 
 .tagline-upper {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 1;
-  font-color: #4cbb17;
 }
 
 .tagline-lower {
-  font-size: 1.2rem;
-  line-height: 1;
+  font-size: 24px;
+  line-height: 1.5rem;
+  color: #dcdcdc;
 }
+#title_1 {
+  font-size: 80px;
+  color: #4cbb17 !important;
+  font-family: cursive;
+}
+#title_4 {
+  font-weight: bold;
+  font-family: cursive;
+  color: #4cbb17;
+}
+#nav_bar{
+  font-weight: 600px;
 
+}
 .text-expanded {
   letter-spacing: 2px;
 }
 
-.text-shadow {
+/*.text-shadow {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
+}*/
 
 .text-lg {
   font-size: 1.25rem;
@@ -65,4 +78,19 @@ hr.divider {
 .map-container iframe.clicked {
   pointer-events: auto;
 }
-
+iframe {
+  display: block;
+  border: 0;
+  margin: 0 auto;
+}
+#member_image {
+  margin-left: 10%;
+  width: 350px;
+  height: 300px;
+}
+#table {
+  padding: 2rem;
+  margin: 0px auto;
+  float: none;
+  border-radius: 5px;
+}

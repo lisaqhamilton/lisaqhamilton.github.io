@@ -19,17 +19,20 @@
 
     <!-- Custom styles for this template -->
     <link href="css/chamber.css" rel="stylesheet">
+   <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+
 
   </head>
 
   <body>
 
-    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block" id="title_1">Cloverdale Chamber of Commerce</div>
+    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block" id="title_1">Cloverdale Area Chamber of Commerce</div>
     <!--<div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block" id="title_2">Gateway to Putnam County</div>-->
     <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block" id="title_3">Cloverdale, Indiana</div>
 
+   
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4" id="nav_bar">
       <div class="container">
         <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,19 +40,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item px-lg-4">
+            <li class="nav-item active px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="index.html">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item active px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="about.html">Our Community</a>
             </li>
-           <!-- <li class="nav-item px-lg-4">
+            <!--<li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="services.html">Services</a>
             </li>-->
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="members.html">Chamber Members</a>
+              <a class="nav-link text-uppercase text-expanded" href="members.html">Business Directory</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="https://www.cloverdalein.com/">Town of Cloverdale</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
@@ -63,27 +69,29 @@
 
       <div class="bg-faded p-4 my-4">
         <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0">Current
-          <strong>Being a Business Member</strong>
+        <h2 class="text-center text-lg text-uppercase my-0">
+          <strong>Become a Business Member</strong>
         </h2>
         <hr class="divider">
         <div class="row">
           <div class="col-lg-6">
-            <img class="img-fluid mb-4 mb-lg-0" src="img/slide-2.jpg" alt="">
+            <img class="img-fluid mb-4 mb-lg-0" src="img/weWantYou.jpg" border-radious="20px" id="member_image" alt="">
           </div>
           <div class="col-lg-6">
-            <p>Local Businesses know the benefit of being a Chamber member.</p>
-            <p>Possibly list the benefits of membership. </p>
-            <p>Interested in hearing more about the benefits of being a Chamber member? Visit our <a href="contact.html">contact</a> page</p>
+            <br></br>
+            <br></br>
+            <p>Network and expand your business opportunities in local markets.</p>
+           <p>Stay connected and informed of community events and projects.</p>
+            <p>Interested in becoming a Chamber member? Complete an application <a href="contact.html">Add Application Link</a> </p>
           </div>
         </div>
       </div>
 
-      <div class="bg-faded p-4 my-4">
+    <!--   <div class="bg-faded p-4 my-4">
         <hr class="divider">
         <h2 class="text-center text-lg text-uppercase my-0">Checkout Our Featured Members
          <!-- <strong>Team</strong>-->
-        </h2>
+        <!-- </h2>
         <hr class="divider">
         <div class="row">
           <div class="col-md-4 mb-4 mb-md-0">
@@ -117,30 +125,45 @@
             </div>
           </div>
         </div>
-      </div>
-
+      </div> -->
+ -->
         <div class="bg-faded p-4 my-4">
         <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0">Full Listing of Commerce Memers
-         <!-- <strong>Team</strong>-->
-        </h2>
-       <!-- <div class="row"> 
-          <table cla></table>
-        </div>-->
-
+        <h2 class="text-center text-lg text-uppercase my-0"><strong>Full Listing of Commerce Members</strong></h2>
+        <hr class="divider">
+        <div class="container">
+        <div class="table-responsize" id="table">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col-xlg-5">Business Name</th>
+                <th scope="col-xlg-3">Address</th>
+                <th scope="col-xlg-1">Phone</th>
+                <th scope="col-xlg-3">Website</th>
+              </tr>
+            </thead>  
+            <tbody>
+              <tr>
+                <th scope="row"></th>
+              </tr>
+            </tbody>       
+          </table>   
+        </div>
+      </div>
     </div>
     <!-- /.container -->
 
-    <footer class="bg-faded text-center py-5">
+   <!--  <footer class="bg-faded text-center py-5">
       <div class="container">
          <p class="m-0">Copyright &copy; Cloverdale Chamber of Commerce 2017</p>
         <p class="m-0">Website Designed by lqh designs </p>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="vendor/main.js"></script>
 
   </body>
 
