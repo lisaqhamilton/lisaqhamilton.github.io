@@ -26,7 +26,7 @@
     "npm": ">=1.4.28"
   },
   "scripts": {
-    "start": "grunt"
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
